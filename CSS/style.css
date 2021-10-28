@@ -3,6 +3,12 @@
 #EBD8D0
 #EAC9C1
 #B97964
+
+#343E3D
+#607466
+#7EC89B
+#B3E6BB
+#FFFFFF
 */
 
 /*
@@ -11,7 +17,7 @@ font-family: 'Raleway', sans-serif;
 */
 
 main{
-    background-color: #EBD8D0;
+    background-color: #B3E6BB;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -20,17 +26,17 @@ p{
 }
 
 h1{
-    color:#B97964;
-    background-color:#EBD8D0;
+    color:#607466;
+    background-color:#B3E6BB;
     font-family: 'Raleway', sans-serif;
 }
 
 body{
-    background-color: #EBD8D0;
+    background-color: #B3E6BB;
 }
 
 h2{
-    color: #B97964;
+    color: #607466;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -41,16 +47,16 @@ h2{
 nav{
     position:sticky;
     top: 20px;
-    background-color: aliceblue;
+    background-color: #7EC89B;
     display: inline-block;
     padding-right: 20px;
 }
 
 a:visited {
-    color: #B97964;
-    text-decoration: underline overline black;
+    color: #B3E6BB;
+    text-decoration: underline overline #343E3D;
   }
 
 a:hover {
-	background: #EBD8D0;
+	background: #7EC89B;
 }
