@@ -33,6 +33,7 @@ h1{
 
 body{
     background-color: #B3E6BB;
+    color: #343E3D;
 }
 
 h2{
@@ -49,8 +50,20 @@ nav{
     top: 20px;
     background-color: #7EC89B;
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
 }
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
 
 a:visited {
     color: #B3E6BB;
@@ -60,3 +73,31 @@ a:visited {
 a:hover {
 	background: #7EC89B;
 }
+
+.grid {
+    display: grid;
+    justify-items: flex-start;
+}
+
+.item1 {
+    grid-row: 1;
+    grid-column: 1 / 8;
+}
+
+.item2 {
+    grid-column: 8 / 9;
+    grid-row: 3;
+    align-self: center;
+}
+
+.item3 {
+    grid-column: 8 / 10;
+    grid-row: 1;
+    gap: 1;
+}
+
+.item4{
+    grid-row: 2;
+    grid-column: 8 / 9;
+}
+
