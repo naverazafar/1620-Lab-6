@@ -1,0 +1,56 @@
+/*
+#FFFBFF
+#EBD8D0
+#EAC9C1
+#B97964
+*/
+
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+main{
+    background-color: #EBD8D0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1{
+    color:#B97964;
+    background-color:#EBD8D0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #EBD8D0;
+}
+
+h2{
+    color: #B97964;
+    font-family: 'Raleway', sans-serif;
+}
+
+.block{
+    display: block;
+}
+
+nav{
+    position:sticky;
+    top: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+a:visited {
+    color: #B97964;
+    text-decoration: underline overline black;
+  }
+
+a:hover {
+	background: #EBD8D0;
+}
